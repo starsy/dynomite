@@ -202,7 +202,7 @@ typedef enum msg_parse_result {
     ACTION( REQ_REDIS_GEOHASH )									    \
     ACTION( REQ_REDIS_GEOPOS )									    \
     ACTION( REQ_REDIS_GEORADIUSBYMEMBER )							    \			
-    /* ACTION( REQ_REDIS_AUTH) */                                                                   \
+    ACTION( REQ_REDIS_AUTH)                                                                         \
     /* ACTION( REQ_REDIS_SELECT)*/             /* only during init */                               \
     ACTION( REQ_REDIS_PFADD )                  /* redis requests - hyperloglog */                   \
     ACTION( REQ_REDIS_PFCOUNT )                                                                     \
